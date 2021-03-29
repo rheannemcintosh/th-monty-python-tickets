@@ -11,9 +11,14 @@
 #
 # ---------------------------------------------------------------- #
 
-# Declare a constants and variables
+# Declare constants and variables
+SERVICE_CHARGE    = 2
 TICKET_PRICE      = 10
 tickets_remaining = 100
+
+# Calculate price function
+def calculate_price(number_of_tickets):
+    return (number_of_tickets * TICKET_PRICE) + SERVICE_CHARGE
 
 # Run this code until we run ouy of tickets
 while tickets_remaining >= 1:
@@ -36,7 +41,7 @@ while tickets_remaining >= 1:
     else:
 
         # Calculate the price and assign it to a variable
-        amount_due = num_tickets * TICKET_PRICE
+        amount_due = calculate_price(num_tickets)
 
         # Ouput the price to the screen
         print("The total due is £{}".format(amount_due))
