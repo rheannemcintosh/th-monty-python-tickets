@@ -1,1 +1,1 @@
-# treehouse_python_monty_python_tickets
+# treehouse-python-monty-python-tickets
