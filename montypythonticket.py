@@ -26,29 +26,36 @@ while tickets_remaining >= 1:
 
     # Prompt the user by name and ask how many tickets they would like
     num_tickets = input("How many tickets would you like, {}? ".format(name))
-    num_tickets = int(num_tickets)
 
-    # Calculate the price and assign it to a variable
-    amount_due = num_tickets * TICKET_PRICE
-
-    # Ouput the price to the screen
-    print("The total due is £{}".format(amount_due))
-
-    # Prompt the user if they want to proceed
-    should_proceed = input("Do you want to proceed? (Y/N) ")
-
-    # If they want to proceed
-    if should_proceed.lower() == "y":
-
-        # Print SOLD! and reduce number of tickets
-        print("SOLD!")
-        tickets_remaining -= num_tickets
-
-    # Else
+    try:
+        num_tickets = int(num_tickets)
+        if num_tickets > tickets_remaining:
+            raise ValueError("There are only {} tickets remaining".format(tickets_remaining))
+    except ValueError as err:
+        print("Oh no, we ran into an issues. {}. Please try again!".format(err))
     else:
 
-        # Thank by name
-        print("Thank you anyway, {}!".format(name))
+        # Calculate the price and assign it to a variable
+        amount_due = num_tickets * TICKET_PRICE
+
+        # Ouput the price to the screen
+        print("The total due is £{}".format(amount_due))
+
+        # Prompt the user if they want to proceed
+        should_proceed = input("Do you want to proceed? (Y/N) ")
+
+        # If they want to proceed
+        if should_proceed.lower() == "y":
+
+            # Print SOLD! and reduce number of tickets
+            print("SOLD!")
+            tickets_remaining -= num_tickets
+
+        # Else
+        else:
+
+            # Thank by name
+            print("Thank you anyway, {}!".format(name))
 
 # Notify the user that the tickets or sold out
 print("Sorry the tickets are all sold out!")
