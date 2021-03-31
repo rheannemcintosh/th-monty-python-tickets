@@ -15,6 +15,7 @@ The inital work was completed by following along the with the Treehouse tutorial
 ## Notes
 - **Language:** Python
 - **Author:** Rheanne McIntosh
+- **100 Days of Treehouse:** Day 2 / 100
 - **Treehouse Tutorial:** [Python Basics](https://teamtreehouse.com/library/python-basics-3)
 
 If you have any questions or can suggest any improvements, please let me know!
