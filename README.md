@@ -5,12 +5,13 @@ The Monty Python Tickets System is a basic Python command line application which
 
 ## Inital Work
 The inital work was completed by following along the with the Treehouse tutorial, with some small edits along the way. Then a separate pull request was created to ensure the code followed PEP8 Standards.
-- [#1 - Refactor Code to PEP8 Standards](https://github.com/rheannemcintosh/treehouse-python-monty-python-tickets/pull/1)
 
 ## Next Steps
 :white_check_mark: Format Code
 
 :white_check_mark: Update README
+
+:white_check_mark: Update Repository
 
 ## Notes
 - **Language:** Python
