@@ -15,7 +15,7 @@ The inital work was completed by following along the with the Treehouse tutorial
 
 :white_check_mark: Post on Instagram
 
-:black_square_button: Update Wiki
+:white_check_mark: Update Wiki
 
 ## Notes
 - **Language:** Python
