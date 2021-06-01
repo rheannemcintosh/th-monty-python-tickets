@@ -1,12 +1,12 @@
 # The Monty Python Tickets System :snake:
 
 ## Project Overview
-The Monty Python Tickets System is a basic Python command line application which I created at the start of my Python journey. The application is based off of a Treehouse Tutorial which can be accessed [here](https://teamtreehouse.com/library/the-project). This is also a part of my 1<sup>st</sup> round of the **100 Days of Code Challenge**.
+The Monty Python Tickets System is a basic Python command line application which I created at the start of my Python journey. The application is based off of a Treehouse Tutorial which can be accessed [here](https://teamtreehouse.com/library/the-project). This was developed as part of my **100 Days of Treehouse Challenge**.
 
-## Inital Work
-The inital work was completed by following along the with the Treehouse tutorial, with some small edits along the way. Then a separate pull request was created to ensure the code followed PEP8 Standards.
+## Initial Work
+The initial work was completed by following along with the ... tutorial, with some small edits along the way. The code was then formatted to comply with PEP8 Standards. 
 
-## Next Steps (Complete :confetti_ball:)
+## Completion Checklist (Complete :confetti_ball:)
 :white_check_mark: Upload Code
 
 :white_check_mark: Format Code
@@ -19,6 +19,8 @@ The inital work was completed by following along the with the Treehouse tutorial
 
 :white_check_mark: Update Wiki
 
+:white_check_mark: Archive Repository
+
 ## Notes
 - **Language:** Python
 - **Author:** Rheanne McIntosh
@@ -26,3 +28,10 @@ The inital work was completed by following along the with the Treehouse tutorial
 - **Treehouse Tutorial:** [Python Basics](https://teamtreehouse.com/library/python-basics-3)
 
 If you have any questions or can suggest any improvements, please let me know!
+
+## Application Setup / Commands
+1. Run the following command:
+```
+python montypythonticket.py
+```
+2. Follow the instructions in the terminal
